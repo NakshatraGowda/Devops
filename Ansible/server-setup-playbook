@@ -1,6 +1,6 @@
 ---
 
-- name: This playbook will setup the servers
+- name: This playbook will setup the linux(ubuntu) servers by installing and running nginx and jdk 
   hosts: all
   become: yes
 
